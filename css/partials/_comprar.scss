@@ -1,0 +1,104 @@
+.body-compra{
+    background-color: rgb(224, 219, 219);
+
+    .container-compra{
+        margin-top: 10%;
+        display: flex;
+       justify-content: center;
+
+
+       .formulario-compra{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 10px;
+        padding: 30px;
+        gap: 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 0,0.2);
+        margin-bottom: 40px;
+        width: 70%;
+
+        .title-compra{
+            display: flex;
+            justify-content: center;
+            font-size: 30px;
+           
+        }
+
+        & label{
+            font-weight: bold;
+        }
+        .submit-enviar{
+            display: flex;
+            justify-content: center;
+        
+        .butonn{
+            margin: 4px;
+            padding: 10px;
+            background-color: black;
+            border: black;
+            color: white;
+            border-radius: 7px;
+            font-size: 15px;
+        
+            &:hover{
+                background-color: gray;
+                color: black;
+            }
+            
+        }
+    }
+
+        }
+       
+    }
+}
+
+
+
+
+@media screen and (max-width:479px) {
+    .title-compra{
+        font-size: 20px;
+       font-weight: bold;
+    }
+}
+@media screen and (max-width:482px) {
+    .title-compra{
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .formulario-compra label{
+        font-size: 12px;
+    }
+
+    
+}
+@media screen and (max-width:388px) {
+    .title-compra{
+        font-size: 12px;
+        font-weight: bold;
+    }
+   
+    
+}
+@media screen and (max-width:284px) {
+    .title-compra{
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .formulario-compra label{
+        font-size: 10px;
+    }
+    
+}
+@media screen and (max-width:190px) {
+    .title-compra{
+        font-size: 7px;
+        font-weight: bold;
+    }
+    .formulario-compra label{
+        font-size: 7px;
+    }
+
+}

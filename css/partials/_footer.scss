@@ -1,0 +1,14 @@
+/*footer*/
+.footer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(44, 43, 43);
+    padding: 10px;
+    color: white;
+
+    &-p{
+        font-size: 15px;
+    }
+}

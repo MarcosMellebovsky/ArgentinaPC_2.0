@@ -1,0 +1,142 @@
+
+.about{
+    margin-top: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0,0.1);   
+    padding: 100px;
+    text-align: center;
+
+    .about-content {
+        max-width: 800px;
+        margin: 0 auto;
+
+        & h2 {
+            font-size: 36px;
+            margin-bottom: 30px;
+            color: #333;
+        }
+        .about-description {
+            margin-bottom: 40px;
+
+            & p {
+                font-size: 18px;
+                color: #666;
+            }
+        }
+        .botonn {
+            display: inline-block;
+            padding: 12px 24px;
+            font-size: 18px;
+            text-decoration: none;
+            color: white;
+            background-color: #333;
+            border-radius: 4px;
+
+            &:hover {
+                background-color: #555;  
+            }
+        }
+
+        
+    }
+  
+    
+}
+
+
+.contenedor{
+    padding: 50px ;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0,0.1);
+    margin-bottom: 30px;
+    margin-top: 30px;
+    
+    &-h2 {
+    font-size: 38px;
+    margin-bottom: 20px;
+    }
+
+    .productos-destacados-padre {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 80px;
+
+        .productos-destacados {
+            padding: 30px;
+            transition: transform 0.3s ease;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+            border-radius: 10px;
+
+            & img{
+                width: 40%;  
+            }
+            .productos-destacados-details{
+                & h3{
+                    font-size: 20px;
+                margin-bottom: 20px;
+                margin-top: 10px;
+                }
+
+                .boton2{
+                    background-color: black ;
+                    text-decoration: none;
+                    color: white;
+                    padding: 5px;
+                    border-radius: 6px;
+                    padding: 10px;
+
+                    &:hover{
+                        background-color: rgb(60, 59, 59);
+                    }
+                }
+            }
+            &:hover {
+                transform: translateY(-10px);
+            }
+        }
+
+    }
+
+}
+ 
+@media (max-width: 1076px){
+    .contenedor h2{
+        font-size: 28px;
+    }
+    .productos-destacados:hover{
+        transform: none;
+    }
+    .about-description {
+        width: 100%;
+    }
+    .about-content h2{
+        width: 100%;
+        font-size: 18px;
+    }
+    .about-description p{
+        width: 100%;
+        font-size: 12px;
+    }
+    .botonn {
+        display: inline-block;
+        padding: 5px 5px;
+        font-size: 14px;
+        text-decoration: none;
+        color: white;
+        background-color: #333;
+        border-radius: 4px;
+    }
+   
+}
+@media screen and (max-width:410px) {
+    .contenedor h2{
+        font-size: 22px;
+    }    
+}
+@media screen and (max-width:343px) {
+    .contenedor h2{
+        font-size: 15px;
+        font-weight: bold;
+    }    
+}

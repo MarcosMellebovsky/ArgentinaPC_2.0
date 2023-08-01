@@ -1,0 +1,136 @@
+.contacto-padre{
+    display: flex;
+    flex-direction: column;
+
+    .title-contacto{
+        display: flex;
+        justify-content: center;  
+        margin-top: 50px;  
+    }
+
+    .mapa-contacto{
+        display: flex;
+        justify-content: center;
+
+
+        .contenedor-contacto{
+            display: flex;
+            gap: 50px;
+            box-shadow: 0 0 20px rgba(0, 0, 0,0.2);
+            margin: 10px;
+            width: 70%;
+
+
+            .parrafo-contacto{
+                margin: 35px;
+                width: 50%;
+
+                &-p{
+                    text-align: start;
+                }
+                
+            }
+        }
+
+        .div-mapa{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 50px;
+            margin: 30px;
+            width: 50%;
+        }
+    }
+
+    .Contactanoss{
+        display: flex;
+        justify-content: center;  
+        margin-top: 50px;  
+    }
+
+    .formulario-contacto{
+        display: flex;
+        justify-content: center;
+
+
+        .formulario{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin: 10px;
+            padding: 30px;
+            gap: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0,0.2);
+            margin-bottom: 40px;
+            width: 70%;
+
+
+            &-label{
+                font-weight: bold;
+            }
+            &-h2{
+                text-align: center;
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+
+            .submit-enviar{
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+
+
+                .enviar{
+                    background-color: black;
+                    border: black;
+                    border-radius: 10px;
+                    padding: 7px;
+                    color: white;
+                    margin-top: 10px;
+                    padding-inline: 20px;
+                    transition: 1s;
+
+                    &:hover{
+                        color: black;
+                        background-color: gray;
+                    }
+                }
+                
+            }
+
+
+        }
+
+
+    }
+
+}
+
+
+
+
+@media screen and (max-width:1410px){
+    .contenedor-contacto{
+        flex-direction: column;
+    }
+    .parrafo-contacto p{
+        text-align: center; 
+    }
+    .div-mapa{
+       
+        width: 95%;
+        
+    }  
+    .mapa{
+        padding-right: 10px;
+        padding-bottom: 60px;
+    }
+    .parrafo-contacto{
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 90%;
+    }
+    
+}
