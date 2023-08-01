@@ -15,7 +15,6 @@
 
         .contenedor-contacto{
             display: flex;
-            gap: 50px;
             box-shadow: 0 0 20px rgba(0, 0, 0,0.2);
             margin: 10px;
             width: 70%;
@@ -112,25 +111,9 @@
 @media screen and (max-width:1410px){
     .contenedor-contacto{
         flex-direction: column;
+      
     }
-    .parrafo-contacto p{
-        text-align: center; 
-    }
-    .div-mapa{
-       
-        width: 95%;
-        
-    }  
-    .mapa{
-        padding-right: 10px;
-        padding-bottom: 60px;
-    }
-    .parrafo-contacto{
-        padding-top: 50px;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        width: 90%;
-    }
+   
+  
     
 }
