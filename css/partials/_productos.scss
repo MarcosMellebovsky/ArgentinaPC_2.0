@@ -1,10 +1,10 @@
 .title-productos{
-    color: black;
+    color: $colorNegro;
     display: flex;
     justify-content: center;
     margin-top: 1%;
     padding-bottom: 1%;
-    font-family: 'Sen', sans-serif;
+    font-family: $fuentePrincipal;
     font-weight: bold;
 }
 .productos{
@@ -32,9 +32,11 @@
         text-align: center;
         color: white;
     }
+
     & img{
         width: 60%;
     }
+
     & p{
         color: white;
         padding-top: 3%;
@@ -42,9 +44,10 @@
         text-align: center;
        
     }
+
     .boton{
-        background-color: black;
-        border: 1px solid black; ;
+        background-color: $colorNegro;
+        border: 1px solid $colorNegro; ;
         color: white;
         padding:2%;
         border-radius: 5px;
@@ -52,13 +55,14 @@
 
         &:hover{
             background-color: rgb(198, 193, 193);
-            color: black;
+            color: $colorNegro;
             border:  rgb(198, 193, 193);
         }
     }
     &:hover {
         transform: translateX(-5px);
     }
+
 }
 
 
@@ -79,10 +83,9 @@
 @media screen and (max-width: 842px) {
     .productos{
         grid-template-columns: 1fr;
-    }
-    .productos{
         grid-gap: 10px;
     }
+    
     .producto img{
         width: 40%;
     }
@@ -90,8 +93,8 @@
         font-size: 12px;
     }
     .boton{
-        background-color: black;
-        border: 1px solid black; ;
+        background-color: $colorNegro;
+        border: 1px solid $colorNegro; ;
         color: white;
         padding:1%;
         transition: 1s;

@@ -15,7 +15,7 @@
 
         .contenedor-contacto{
             display: flex;
-            box-shadow: 0 0 20px rgba(0, 0, 0,0.2);
+            box-shadow: $boxShadow;
             margin: 10px;
             width: 70%;
 
@@ -32,12 +32,18 @@
         }
 
         .div-mapa{
+            width: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
             gap: 50px;
             margin: 30px;
-            width: 50%;
+
+            & iframe{
+                border-radius: 20px;
+                
+            }
+            
         }
     }
 
@@ -59,7 +65,7 @@
             margin: 10px;
             padding: 30px;
             gap: 10px;
-            box-shadow: 0 0 20px rgba(0, 0, 0,0.2);
+            box-shadow:$boxShadow;
             margin-bottom: 40px;
             width: 70%;
 
@@ -80,8 +86,8 @@
 
 
                 .enviar{
-                    background-color: black;
-                    border: black;
+                    background-color: $colorNegro;
+                    border: $colorNegro;
                     border-radius: 10px;
                     padding: 7px;
                     color: white;
@@ -90,7 +96,7 @@
                     transition: 1s;
 
                     &:hover{
-                        color: black;
+                        color: $colorNegro;
                         background-color: gray;
                     }
                 }
@@ -110,10 +116,7 @@
 
 @media screen and (max-width:1410px){
     .contenedor-contacto{
-        flex-direction: column;
-      
+        flex-direction: column;      
     }
-   
   
-    
 }

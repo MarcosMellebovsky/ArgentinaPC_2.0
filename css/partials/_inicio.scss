@@ -1,7 +1,7 @@
 
 .about{
     margin-top: 20px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);   
+    box-shadow: $boxShadow;   
     padding: 100px;
     text-align: center;
 
@@ -46,12 +46,12 @@
 .contenedor{
     padding: 50px ;
     text-align: center;
-    box-shadow: 0 0 20px rgba(0, 0, 0,0.1);
+    box-shadow: $boxShadow;
     margin-bottom: 30px;
     margin-top: 30px;
     
-    &-h2 {
-    font-size: 38px;
+    & h2 {
+    font-size: 35px;
     margin-bottom: 20px;
     }
 
@@ -65,7 +65,7 @@
         .productos-destacados {
             padding: 30px;
             transition: transform 0.3s ease;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+            box-shadow: 0 2px 4px $colorNegro;
             border-radius: 10px;
 
             & img{
@@ -74,12 +74,12 @@
             .productos-destacados-details{
                 & h3{
                     font-size: 20px;
-                margin-bottom: 20px;
-                margin-top: 10px;
+                    margin-bottom: 20px;
+                    margin-top: 10px;
                 }
 
                 .boton2{
-                    background-color: black ;
+                    background-color: $colorNegro ;
                     text-decoration: none;
                     color: white;
                     padding: 5px;

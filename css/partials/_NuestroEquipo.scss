@@ -2,7 +2,6 @@
     font-size: 30px;
     text-align: center;
     margin-top: 15px;
-    font-weight: bold;
 }
 .nuestroEquipo{
     display: grid;
@@ -25,7 +24,7 @@
         & h4{
             font-size: 20px;
             text-align: center;
-            color: black;
+            color: $colorNegro;
             margin-top:5px ;
             margin-bottom: 8px;
         }
@@ -36,8 +35,8 @@
         }
         .button-equipo{
             margin-top: 30px;
-            background-color: black;
-            border: 1px solid black; 
+            background-color: $colorNegro;
+            border: 1px solid $colorNegro; 
             color: white;
             padding:2%;
             transition: 0.5s;
@@ -52,7 +51,7 @@
             }
         }
         &:hover {
-            transform: translatey(-20px);
+            transform: translateY(-10px);
         }
         
     }

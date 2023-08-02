@@ -10,7 +10,7 @@
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
-    box-shadow: 0 0 20px rgba(0, 0, 0,0.1);
+    box-shadow: $boxShadow;
     margin: 15px;
 
     .accordion{
@@ -20,7 +20,7 @@
 .servicio-padre{
     margin-top: 20px;
     margin-bottom: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0,0.1);
+    box-shadow: $boxShadow;
     display: flex;
     justify-content: center;
     margin: 15px;
@@ -43,8 +43,8 @@
     
             text-decoration: none;
             color: white;
-            box-shadow: 0 0 20px rgba(0, 0, 0,0.2);
-            background-color: black;
+            box-shadow: $boxShadow;
+            background-color: $colorNegro;
             padding: 10px;
             border-radius: 10px;
             transition: 1s;
@@ -67,7 +67,7 @@
 .consulta-padre{
     margin-top: 20px;
     margin-bottom: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0,0.1);
+    box-shadow: $boxShadow;
     display: flex;
     margin: 15px;
 
@@ -77,8 +77,8 @@
     
             text-decoration: none;
             color: white;
-            box-shadow: 0 0 20px rgba(0, 0, 0,0.2);
-            background-color: black;
+            box-shadow: $boxShadow;
+            background-color: $colorNegro;
             padding: 10px;
             border-radius: 10px;
             transition: 1s;
