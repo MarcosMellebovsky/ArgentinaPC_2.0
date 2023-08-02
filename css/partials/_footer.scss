@@ -10,48 +10,53 @@
         display: grid;
         grid-template-columns: repeat(3,1fr);   
         grid-gap: 50px;
-        padding: 45px 0;     
-
-        .box figure{
+        padding: 45px 0; 
+        
+    .box{
+        
+        & figure{
+            
             width: 100%;
             height: 100%;
             display: flex;
             justify-content: center;
             align-items: center;
+        }
+        & img{
+            width: 250px;
+        }
 
-            & img{
-                width: 250px;
-            }
+        & h2{
+            color: #fff;
+            margin-bottom: 25px;
+            font-size: 20px;
+        }
 
-            & h2{
-                color: #fff;
-                margin-bottom: 25px;
-                font-size: 20px;
-            }
+        & p{
+            color: #efefef;
+            margin-bottom: 10px;
+        }
+    }   
 
-            & p{
-                color: #efefef;
-                margin-bottom: 10px;
+        .red-social a{
+            display: inline-block;
+            text-decoration: none;
+            width: 45px;
+            height: 45px;
+            line-height: 45px;
+            color: #fff;
+            margin-right: 10px;
+            background-color: #0d2033;
+            text-align: center;
+            transition: all 300ms ease;
+    
+            &:hover{
+                color: rgb(99, 108, 108);
             }
-            .red-social a{
-                display: inline-block;
-                text-decoration: none;
-                width: 45px;
-                height: 45px;
-                line-height: 45px;
-                color: #fff;
-                margin-right: 10px;
-                background-color: #0d2033;
-                text-align: center;
-                transition: all 300ms ease;
-
-                &:hover{
-                    color: rgb(99, 108, 108);
-                }
-            
-            }
+        
         }
     }
+    
 
     .grupo-2{
         background-color: #181c20;
