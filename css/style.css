@@ -163,6 +163,7 @@ header {
   transition: 1s;
 }
 .productos .producto h3 {
+  padding: 1rem;
   font-size: 15px;
   text-align: center;
   color: white;
