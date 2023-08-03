@@ -99,7 +99,11 @@
     }
 
 }
- 
+
+
+ /*vista mediana */
+
+
 @media (max-width: 1076px){
     .contenedor h2{
         font-size: 28px;
@@ -129,11 +133,17 @@
     }
    
 }
+
+/*vista chica */
+
 @media screen and (max-width:410px) {
     .contenedor h2{
         font-size: 22px;
     }    
 }
+
+/*vista chiquita */
+
 @media screen and (max-width:343px) {
     .contenedor h2{
         font-size: 15px;

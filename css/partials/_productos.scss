@@ -68,11 +68,15 @@
 
 }
 
+/*vista grande */
+
 @media screen and (max-width:1629px) {
     .productos{
         grid-template-columns: 1fr 1fr 1fr;    
     } 
 }
+
+/*vista mediana */
 
 @media screen and (max-width: 1180px) {
     .productos{
@@ -80,6 +84,8 @@
     }
         
 }
+
+/*vista chica*/
 @media screen and (max-width: 842px) {
     .productos{
         grid-template-columns: 1fr;

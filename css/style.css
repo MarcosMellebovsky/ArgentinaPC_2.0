@@ -92,6 +92,7 @@ header {
   transform: translateY(-10px);
 }
 
+/*vista mediana */
 @media (max-width: 1076px) {
   .contenedor h2 {
     font-size: 28px;
@@ -120,11 +121,13 @@ header {
     border-radius: 4px;
   }
 }
+/*vista chica */
 @media screen and (max-width: 410px) {
   .contenedor h2 {
     font-size: 22px;
   }
 }
+/*vista chiquita */
 @media screen and (max-width: 343px) {
   .contenedor h2 {
     font-size: 15px;
@@ -189,16 +192,19 @@ header {
   transform: translateX(-5px);
 }
 
+/*vista grande */
 @media screen and (max-width: 1629px) {
   .productos {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
+/*vista mediana */
 @media screen and (max-width: 1180px) {
   .productos {
     grid-template-columns: 1fr 1fr;
   }
 }
+/*vista chica*/
 @media screen and (max-width: 842px) {
   .productos {
     grid-template-columns: 1fr;
@@ -267,6 +273,7 @@ header {
   color: black;
 }
 
+/*vista chica general */
 @media screen and (max-width: 479px) {
   .title-compra {
     font-size: 20px;
@@ -433,11 +440,13 @@ header {
   transform: translateY(-10px);
 }
 
+/*vista grande */
 @media screen and (max-width: 1180px) {
   .nuestroEquipo {
     grid-template-columns: 1fr 1fr;
   }
 }
+/*vista mediana */
 @media screen and (max-width: 838px) {
   .title-nuestroEquipo {
     font-size: 20px;
@@ -465,6 +474,7 @@ header {
     width: 50%;
   }
 }
+/*vista medianita */
 @media screen and (max-width: 607px) {
   .button-equipo {
     width: 50%;
@@ -477,6 +487,7 @@ header {
     font-size: 18px;
   }
 }
+/*vista chica */
 @media screen and (max-width: 573px) {
   .button-equipo {
     font-size: 10px;
@@ -488,6 +499,7 @@ header {
     font-size: 16px;
   }
 }
+/*vista chiquita */
 @media screen and (max-width: 424px) {
   .button-equipo {
     font-size: 5px;
@@ -578,6 +590,7 @@ header {
   background-color: gray;
 }
 
+/*vista mediana y tambien chica */
 @media screen and (max-width: 1410px) {
   .contenedor-contacto {
     flex-direction: column;
@@ -640,6 +653,7 @@ header {
   font-size: 18px;
 }
 
+/*vista mediana y tambien para chica */
 @media screen and (max-width: 824px) {
   .pie-pagina .grupo-1 {
     width: 90%;
