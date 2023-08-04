@@ -144,14 +144,14 @@ header {
   font-weight: bold;
 }
 
-.productos {
+.productos, .nuestroEquipo {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   grid-gap: 40px;
   margin: 10px;
 }
-.productos .producto {
+.productos .producto, .nuestroEquipo .producto {
   margin-top: 3%;
   margin-bottom: 8%;
   border-radius: 10px;
@@ -162,52 +162,52 @@ header {
   border: 3px solid white;
   transition: 1s;
 }
-.productos .producto h3 {
+.productos .producto h3, .nuestroEquipo .producto h3 {
   padding: 1rem;
   font-size: 15px;
   text-align: center;
   color: white;
 }
-.productos .producto img {
-  width: 60%;
+.productos .producto img, .nuestroEquipo .producto img {
+  width: 40%;
 }
-.productos .producto p {
+.productos .producto p, .nuestroEquipo .producto p {
   color: white;
   padding-top: 3%;
   font-size: 15px;
   text-align: center;
 }
-.productos .producto .boton {
+.productos .producto .boton, .nuestroEquipo .producto .boton {
   background-color: #000000;
   border: 1px solid #000000;
   color: white;
   padding: 2%;
   border-radius: 5px;
 }
-.productos .producto .boton:hover {
+.productos .producto .boton:hover, .nuestroEquipo .producto .boton:hover {
   background-color: rgb(198, 193, 193);
   color: #000000;
   border: rgb(198, 193, 193);
 }
-.productos .producto:hover {
+.productos .producto:hover, .nuestroEquipo .producto:hover {
   transform: translateX(-5px);
 }
 
 /*vista grande */
 @media screen and (max-width: 1629px) {
-  .productos {
+  .productos, .nuestroEquipo {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
 /*vista mediana */
 @media screen and (max-width: 1180px) {
-  .productos {
+  .productos, .nuestroEquipo {
     grid-template-columns: 1fr 1fr;
   }
 }
 /*vista chica*/
 @media screen and (max-width: 842px) {
-  .productos {
+  .productos, .nuestroEquipo {
     grid-template-columns: 1fr;
     grid-gap: 10px;
   }
@@ -396,10 +396,7 @@ header {
 }
 
 .nuestroEquipo {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-gap: 30px;
+  /*extend*/
 }
 .nuestroEquipo .nuestroEquipo-integrantes {
   width: 80%;
