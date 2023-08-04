@@ -61,13 +61,13 @@
 /*vista chica general */
 
 @media screen and (max-width:479px) {
-    .title-compra{
+    .title-compra p {
         font-size: 20px;
-       font-weight: bold;
+        font-weight: bold;
     }
 }
 @media screen and (max-width:482px) {
-    .title-compra{
+    .title-compra p{
         font-size: 15px;
         font-weight: bold;
     }
@@ -78,7 +78,7 @@
     
 }
 @media screen and (max-width:388px) {
-    .title-compra{
+    .title-compra p{
         font-size: 12px;
         font-weight: bold;
     }
@@ -86,7 +86,7 @@
     
 }
 @media screen and (max-width:284px) {
-    .title-compra{
+    .title-compra p{
         font-size: 10px;
         font-weight: bold;
     }
@@ -96,7 +96,7 @@
     
 }
 @media screen and (max-width:190px) {
-    .title-compra{
+    .title-compra p{
         font-size: 7px;
         font-weight: bold;
     }
