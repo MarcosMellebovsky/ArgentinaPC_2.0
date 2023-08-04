@@ -8,13 +8,15 @@
         margin-top: 50px;  
     }
 
-    .mapa-contacto{
+    .contac{
         display: flex;
         justify-content: center;
+        
 
 
         .contenedor-contacto{
             display: flex;
+            
             box-shadow: $boxShadow;
             margin: 10px;
             width: 70%;
@@ -22,29 +24,26 @@
 
             .parrafo-contacto{
                 margin: 35px;
+                display: flex;
+                flex-direction: column;
                 width: 50%;
 
-                &-p{
+                & p{
+                    font-family: $fuentePrincipal;
                     text-align: start;
+                    font-weight: bold; 
                 }
                 
             }
-        }
-
-        .div-mapa{
-            width: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 50px;
-            margin: 30px;
-
-            & iframe{
-                border-radius: 20px;
-                
+            .col{
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                margin: 1rem;
             }
-            
         }
+
+        
     }
 
     .Contactanoss{
@@ -70,10 +69,10 @@
             width: 70%;
 
 
-            &-label{
+            & label{
                 font-weight: bold;
             }
-            &-h2{
+            & h2{
                 text-align: center;
                 margin-top: 30px;
                 margin-bottom: 30px;
@@ -117,7 +116,18 @@
 
 @media screen and (max-width:1410px){
     .contenedor-contacto{
-        flex-direction: column;      
+        flex-direction: column;  
+        align-items: center;    
     }
-  
+    .parrafo-contacto p{
+      margin: 1rem;
+      width: 100%;
+      display: flex;
+      font-weight: bold; 
+    }
+    .col {
+        width: 100%;
+        padding: 1rem;
+    }
+    
 }

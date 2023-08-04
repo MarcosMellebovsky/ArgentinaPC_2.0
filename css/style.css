@@ -512,33 +512,32 @@ header {
   justify-content: center;
   margin-top: 50px;
 }
-.contacto-padre .mapa-contacto {
+.contacto-padre .contac {
   display: flex;
   justify-content: center;
 }
-.contacto-padre .mapa-contacto .contenedor-contacto {
+.contacto-padre .contac .contenedor-contacto {
   display: flex;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   margin: 10px;
   width: 70%;
 }
-.contacto-padre .mapa-contacto .contenedor-contacto .parrafo-contacto {
+.contacto-padre .contac .contenedor-contacto .parrafo-contacto {
   margin: 35px;
+  display: flex;
+  flex-direction: column;
   width: 50%;
 }
-.contacto-padre .mapa-contacto .contenedor-contacto .parrafo-contacto-p {
+.contacto-padre .contac .contenedor-contacto .parrafo-contacto p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: start;
+  font-weight: bold;
 }
-.contacto-padre .mapa-contacto .div-mapa {
-  width: 50%;
+.contacto-padre .contac .contenedor-contacto .col {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 50px;
-  margin: 30px;
-}
-.contacto-padre .mapa-contacto .div-mapa iframe {
-  border-radius: 20px;
+  justify-content: flex-start;
+  margin: 1rem;
 }
 .contacto-padre .Contactanoss {
   display: flex;
@@ -560,10 +559,10 @@ header {
   margin-bottom: 40px;
   width: 70%;
 }
-.contacto-padre .formulario-contacto .formulario-label {
+.contacto-padre .formulario-contacto .formulario label {
   font-weight: bold;
 }
-.contacto-padre .formulario-contacto .formulario-h2 {
+.contacto-padre .formulario-contacto .formulario h2 {
   text-align: center;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -592,6 +591,17 @@ header {
 @media screen and (max-width: 1410px) {
   .contenedor-contacto {
     flex-direction: column;
+    align-items: center;
+  }
+  .parrafo-contacto p {
+    margin: 1rem;
+    width: 100%;
+    display: flex;
+    font-weight: bold;
+  }
+  .col {
+    width: 100%;
+    padding: 1rem;
   }
 }
 .pie-pagina {
