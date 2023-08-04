@@ -3,7 +3,7 @@
     justify-content: center;
     margin-top: 10px;
     margin-bottom: 10px;
-    
+    font-weight: bold;
 }
 
 .ayuda-padre{
@@ -32,6 +32,7 @@
 
     .title-servicio{
         margin-bottom: 10px;
+        font-weight: bold;
     }
 
     .servicio-detalles{
@@ -91,3 +92,19 @@
     }
 }
 }
+
+@media screen and (max-width:525px) {
+    .title-servicio h2{
+        font-size: 17px;
+        font-weight: bold;
+    }
+    
+}
+@media screen and (max-width:420px) {
+    .title-servicio h2{
+        font-size: 15px;
+        
+    }
+    
+}
+

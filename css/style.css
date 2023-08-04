@@ -319,6 +319,7 @@ header {
   justify-content: center;
   margin-top: 10px;
   margin-bottom: 10px;
+  font-weight: bold;
 }
 
 .ayuda-padre {
@@ -345,6 +346,7 @@ header {
 }
 .servicio-padre .contenedor-ayuda .title-servicio {
   margin-bottom: 10px;
+  font-weight: bold;
 }
 .servicio-padre .contenedor-ayuda .servicio-detalles {
   display: flex;
@@ -389,6 +391,17 @@ header {
   color: rgb(34, 34, 34);
 }
 
+@media screen and (max-width: 525px) {
+  .title-servicio h2 {
+    font-size: 17px;
+    font-weight: bold;
+  }
+}
+@media screen and (max-width: 420px) {
+  .title-servicio h2 {
+    font-size: 15px;
+  }
+}
 .title-nuestroEquipo {
   font-size: 30px;
   text-align: center;
