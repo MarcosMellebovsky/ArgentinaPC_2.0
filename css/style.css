@@ -500,9 +500,6 @@ header {
 }
 /*vista chica */
 @media screen and (max-width: 573px) {
-  .button-equipo {
-    font-size: 10px;
-  }
   .nuestroEquipo-integrantes h4 {
     font-size: 8px;
   }
@@ -511,11 +508,6 @@ header {
   }
 }
 /*vista chiquita */
-@media screen and (max-width: 424px) {
-  .button-equipo {
-    font-size: 5px;
-  }
-}
 .contacto-padre {
   display: flex;
   flex-direction: column;

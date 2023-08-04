@@ -100,6 +100,7 @@
     .nuestroEquipo-integrantes h4{
         font-size: 14px;
     }
+    
     .button-equipo{
         width: 50%;
     }
@@ -126,9 +127,7 @@
 
 @media screen and (max-width: 573px){
     
-    .button-equipo{
-        font-size: 10px;
-    }
+  
     .nuestroEquipo-integrantes h4{
         font-size: 8px;
     }
@@ -141,7 +140,5 @@
 
 
 @media screen and (max-width:424px){
-    .button-equipo{
-        font-size: 5px;
-    }
+  
 }
