@@ -16,7 +16,6 @@
 
         .contenedor-contacto{
             display: flex;
-            
             box-shadow: $boxShadow;
             margin: 10px;
             width: 70%;
@@ -31,7 +30,6 @@
                 & p{
                     font-family: $fuentePrincipal;
                     text-align: start;
-                    font-weight: bold; 
                 }
                 
             }
@@ -76,6 +74,9 @@
                 text-align: center;
                 margin-top: 30px;
                 margin-bottom: 30px;
+            }
+            & input{
+                padding: .5rem;
             }
 
             .submit-enviar{
@@ -123,7 +124,7 @@
       margin: 1rem;
       width: 0;
       display: flex;
-      font-weight: bold; 
+      
       text-align: center;
     }
     .col {

@@ -107,12 +107,16 @@
 @media (max-width: 1076px){
     .contenedor h2{
         font-size: 28px;
+        margin: 1rem;
     }
     .productos-destacados:hover{
         transform: none;
     }
     .about-description {
         width: 100%;
+    }
+    .container{
+        margin: 2rem;
     }
     .about-content h2{
         width: 100%;
@@ -123,13 +127,17 @@
         font-size: 12px;
     }
     .botonn {
-        display: inline-block;
         padding: 5px 5px;
         font-size: 14px;
         text-decoration: none;
         color: white;
         background-color: #333;
         border-radius: 4px;
+        
+    }
+    .about{
+        padding: 1px;
+        
     }
    
 }
@@ -140,6 +148,9 @@
     .contenedor h2{
         font-size: 22px;
     }    
+    .about{
+        padding: 1px;
+    }
 }
 
 /*vista chiquita */
@@ -147,6 +158,8 @@
 @media screen and (max-width:343px) {
     .contenedor h2{
         font-size: 15px;
-        font-weight: bold;
     }    
+    .about{
+        padding: 1px;
+    }
 }
