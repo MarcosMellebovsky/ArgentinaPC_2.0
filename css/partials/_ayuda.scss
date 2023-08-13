@@ -98,12 +98,19 @@
         font-size: 17px;
         font-weight: bold;
     }
+    .title-consulta h2{
+        font-size: 17px;
+        font-weight: bold;
+    }
     
 }
 @media screen and (max-width:420px) {
     .title-servicio h2{
         font-size: 15px;
         
+    }
+    .title-consulta h2{
+        font-size: 15px;
     }
     
 }

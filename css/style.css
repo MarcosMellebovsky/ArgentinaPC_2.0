@@ -180,9 +180,9 @@ header {
   color: white;
 }
 .productos .producto img, .nuestroEquipo .producto img {
-  width: 40%;
+  width: 50%;
 }
-.productos .producto p, .nuestroEquipo .producto p {
+.productos .producto .parrafo, .nuestroEquipo .producto .parrafo {
   color: white;
   padding-top: 3%;
   font-size: 15px;
@@ -410,9 +410,16 @@ header {
     font-size: 17px;
     font-weight: bold;
   }
+  .title-consulta h2 {
+    font-size: 17px;
+    font-weight: bold;
+  }
 }
 @media screen and (max-width: 420px) {
   .title-servicio h2 {
+    font-size: 15px;
+  }
+  .title-consulta h2 {
     font-size: 15px;
   }
 }
@@ -540,19 +547,18 @@ header {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   margin: 10px;
   width: 70%;
+  flex-direction: column;
 }
 .contacto-padre .contac .contenedor-contacto .parrafo-contacto {
-  margin: 35px;
   display: flex;
   flex-direction: column;
-  width: 50%;
   padding: 1rem;
 }
 .contacto-padre .contac .contenedor-contacto .parrafo-contacto p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: start;
 }
-.contacto-padre .contac .contenedor-contacto .col {
+.contacto-padre .contac .contenedor-contacto .div-mapa {
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -610,22 +616,6 @@ header {
 }
 
 /*vista mediana y tambien chica */
-@media screen and (max-width: 1410px) {
-  .contenedor-contacto {
-    flex-direction: column;
-    align-items: center;
-  }
-  .parrafo-contacto {
-    margin: 1rem;
-    display: flex;
-    text-align: center;
-    width: 100%;
-  }
-  .col {
-    width: 100%;
-    padding: 1rem;
-  }
-}
 .pie-pagina {
   width: 100%;
   background-color: #000000;
